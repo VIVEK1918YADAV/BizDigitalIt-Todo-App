@@ -8,7 +8,7 @@ The TODO App offers the following functionalities:
 
 1. **Add Notes**: Users can add new tasks by providing a title and description. ➕
 2. **Delete Note**: Users can delete existing tasks from the list. ❌
-3. **Complete States of a Note**: Users can mark tasks as completed. ✅
+3. **Complete States of a Note**: Users can mark tasks as completed and also view the completion time and date. ✅
 
 ## Technology Stack
 
