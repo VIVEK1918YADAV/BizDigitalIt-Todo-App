@@ -4,10 +4,10 @@ import {AiOutlineDelete} from 'react-icons/ai';
 import {BsCheckLg} from 'react-icons/bs';
 function App () {
   const [allTodos, setAllTodos] = useState ([]);
-  const [newTodoTitle, setNewTodoTitle] = useState ('');
-  const [newDescription, setNewDescription] = useState ('');
-  const [completedTodos, setCompletedTodos] = useState ([]);
-  const [isCompletedScreen, setIsCompletedScreen] = useState (false);
+  const [newToditle, setNewTodoTitle] = useState ('');
+  const [newDescrtion, setNewDescription] = useState ('');
+  const [sd, sda] = useState ([]);
+  const [df, dfs] = useState (false);
 
   const handleAddNewToDo = () => {
     let newToDoObj = {
@@ -15,7 +15,7 @@ function App () {
       description: newDescription,
     };
     // console.log (newToDoObj);
-    let updatedTodoArr = [...allTodos];
+    let updatedTr = [...allTodos];
     updatedTodoArr.push (newToDoObj);
     // console.log (updatedTodoArr);
     setAllTodos (updatedTodoArr);
