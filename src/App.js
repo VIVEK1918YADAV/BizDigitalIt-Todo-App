@@ -15,8 +15,8 @@ function App () {
       description: newDescription,
     };
     // console.log (newToDoObj);
-    let updatedTr = [...allTodos];
-    updatedTodoArr.push (newToDoObj);
+    // let updatedTr = [...allTodos];
+    // updatedTodoArr.push (newToDoObj);
     // console.log (updatedTodoArr);
     setAllTodos (updatedTodoArr);
     localStorage.setItem ('todolist', JSON.stringify (updatedTodoArr));
